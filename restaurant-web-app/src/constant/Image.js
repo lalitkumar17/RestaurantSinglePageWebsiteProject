@@ -1,5 +1,5 @@
-import NavLogo from "../assets/gericht.png";
+import navlogo from "../assets/gericht.png";
 
 export default {
-  NavLogo,
+  navlogo,
 };
