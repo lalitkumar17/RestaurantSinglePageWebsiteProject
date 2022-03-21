@@ -6,7 +6,7 @@ import Logo from '../../constant/Image'
   return (
     <nav className='nav'>
       <div className='nav__image'>
-      <img src={Logo.NavLogo} alt="hay" />
+      <img src={Logo.navlogo} alt="hay" />
       </div>
       
       <ul className='nav__center-menu'>
