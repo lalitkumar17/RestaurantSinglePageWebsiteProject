@@ -1,14 +1,15 @@
 import React from "react";
 import "./Navigation.css";
-import Logo from "../../constant/Image";
-import { FaBars, FaToggleOn } from "react-icons/fa";
+import { images } from "../../constants";
+import { FaBars } from "react-icons/fa";
+import image from "../../constants/image";
 
 const Navigation = () => {
   const [navswitch, setNavwitch] = React.useState(false);
   return (
     <nav className="nav">
       <div className="nav__image">
-        <img src={Logo.navlogo} alt="hay" />
+        <img src={image.gericht} alt="hay" />
       </div>
       <ul className="nav__center-menu">
         <li>
@@ -40,39 +41,35 @@ const Navigation = () => {
       <div className="nav__small-screen">
         <FaBars
           className="hamburger-menu"
-          onClick={() => {
-            if (navswitch) {
-              setNavwitch(false);
-            } else {
-              setNavwitch(true);
-            }
-          }}
+          onClick={() => (navswitch ? setNavwitch(false) : setNavwitch(true))}
         />
         {navswitch && (
-          <ul className="nav__small-screen__overlay">
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#home">Page</a>
-            </li>
-            <li>
-              <a href="#home">ContactUs</a>
-            </li>
-            <li>
-              <a href="#home">Blog</a>
-            </li>
-            <li>
-              <ul className="nav__small-screen__overlay__loginAndbooktable">
-                <li>
-                  <a href="#home">LogIn/Registration</a>
-                </li>
-                <li>
-                  <a href="#home">BookTable</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+          <>
+            <ul className="nav__small-screen__overlay">
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#home">Page</a>
+              </li>
+              <li>
+                <a href="#home">ContactUs</a>
+              </li>
+              <li>
+                <a href="#home">Blog</a>
+              </li>
+              <li>
+                <ul className="nav__small-screen__overlay__loginAndbooktable">
+                  <li>
+                    <a href="#home">LogIn/Registration</a>
+                  </li>
+                  <li>
+                    <a href="#home">BookTable</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </>
         )}
       </div>
     </nav>
