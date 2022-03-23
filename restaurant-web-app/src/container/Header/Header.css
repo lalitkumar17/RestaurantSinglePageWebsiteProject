@@ -6,4 +6,43 @@
 
 .app-header {
   background-color: var(--color-black);
+  display: flex;
+  padding: 1.5rem 6rem;
+  gap: 6rem;
+  flex-wrap: nowrap;
+}
+
+.app-header > img {
+  object-fit: contain;
+  width: 600px;
+}
+
+.app-header__text-content > h1 {
+  font-size: 4rem;
+  margin-top: -0.5em;
+}
+
+.app-header__text-content > p {
+  line-height: 2em;
+}
+
+.app-header__text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.app-header__text-content > button {
+  padding: 1em 2em;
+  margin-right: auto;
+  color: var(--color-black);
+  background-color: var(--color-gold);
+}
+
+.app-header__hastags {
+  transform: rotate(-90deg);
+  margin: auto;
+  width: 600px;
+  font-size: 1.1rem;
 }

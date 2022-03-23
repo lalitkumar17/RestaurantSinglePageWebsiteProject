@@ -1,5 +1,7 @@
 import React from "react";
 import "./Header.css";
+import { images } from "../../constants";
+import { SubHeading } from "../../components/SubHeading/SubHeading";
 
 export const Header = () => {
   return (
@@ -8,6 +10,7 @@ export const Header = () => {
         <p>#Bar &nbsp; &nbsp; #Gericht</p>
       </div>
       <div className="app-header__text-content">
+        <SubHeading title="Chase The New Flavour" />
         <h1>The Key To Fine Dining</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
@@ -17,7 +20,7 @@ export const Header = () => {
         </p>
         <button type="button">Explore Menu</button>
       </div>
-      <img src="" alt="" />
+      <img src={images.welcome} alt="" />
     </div>
   );
 };

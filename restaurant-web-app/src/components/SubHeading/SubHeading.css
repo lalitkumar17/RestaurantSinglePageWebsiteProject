@@ -1,0 +1,17 @@
+* {
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+.app__sub-heading {
+  font-size: 1.2rem;
+}
+
+.app__sub-heading > p {
+  margin-bottom: -0.1rem;
+}
+
+.app__sub-heading > img {
+  object-fit: contain;
+  width: 50px;
+}

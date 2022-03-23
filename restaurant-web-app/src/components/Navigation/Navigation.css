@@ -5,7 +5,7 @@
 
 .nav {
   background-color: var(--color-black);
-  padding: 1.5em 6em;
+  padding: 1.5rem 6rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
