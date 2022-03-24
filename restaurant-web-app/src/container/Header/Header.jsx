@@ -9,18 +9,20 @@ export const Header = () => {
       <div className="app-header__hastags">
         <p>#Bar &nbsp; &nbsp; #Gericht</p>
       </div>
-      <div className="app-header__text-content">
-        <SubHeading title="Chase The New Flavour" />
-        <h1>The Key To Fine Dining</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
-          totam architecto neque harum ea quaerat veniam debitis? Placeat saepe
-          fuga assumenda ullam magnam hic obcaecati, consequatur unde voluptas
-          sint vitae.
-        </p>
-        <button type="button">Explore Menu</button>
+      <div className="app-header__container">
+        <div className="app-header__text-content">
+          <SubHeading title="Chase The New Flavour" />
+          <h1>The Key To Fine Dining</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
+            totam architecto neque harum ea quaerat veniam debitis? Placeat
+            saepe fuga assumenda ullam magnam hic obcaecati, consequatur unde
+            voluptas sint vitae.
+          </p>
+          <button type="button">Explore Menu</button>
+        </div>
+        <img src={images.welcome} alt="" />
       </div>
-      <img src={images.welcome} alt="" />
     </div>
   );
 };
