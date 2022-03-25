@@ -11,7 +11,7 @@
 
 .about-container__content {
   display: flex;
-  gap: 3rem;
+  gap: 5rem;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   padding-left: 17rem;
@@ -22,7 +22,6 @@
 .about-container .about-container__img {
   object-fit: contain;
   width: 80px;
-  border: 1px red solid;
 }
 
 .about-container__background img {
@@ -38,5 +37,42 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
-  border: 1px red solid;
+}
+
+.about-container__aboutus-history-style > h1 {
+  font-size: 3rem;
+  font-weight: normal;
+  color: var(--color-gold);
+}
+
+.about-container__flexstyle {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.aboutus__headerstyle {
+  text-align: right;
+}
+
+.aboutus__headerstyle > img {
+  transform: rotate(180deg);
+}
+
+.about-container__aboutus button {
+  margin-left: auto;
+}
+
+.about-container__history button {
+  margin-right: auto;
+}
+
+button {
+  padding: 1em 2em;
+  color: var(--color-black);
+  background-color: var(--color-gold);
+}
+
+.about-container__aboutus p {
+  text-align: right;
 }

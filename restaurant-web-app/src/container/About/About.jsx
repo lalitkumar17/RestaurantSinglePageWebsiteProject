@@ -13,8 +13,8 @@ export const About = () => {
       </div>
 
       <div className="about-container__content">
-        <div className="about-container__aboutus">
-          <div className="about-container__header-aboutus">
+        <div className="about-container__aboutus about-container__flexstyle">
+          <div className="about-container__aboutus-history-style aboutus__headerstyle">
             <h1>About Us</h1>
             <img src={images.spoon} alt="" />
           </div>
@@ -26,10 +26,9 @@ export const About = () => {
           </p>
           <button type="button">Know More</button>
         </div>
-
         <img src={images.knife} alt="" className="about-container__img" />
-        <div className="about-container__history">
-          <div className="about-container__header-aboutus">
+        <div className="about-container__history about-container__flexstyle">
+          <div className="about-container__aboutus-history-style ">
             <h1>Our History</h1>
             <img src={images.spoon} alt="" />
           </div>
