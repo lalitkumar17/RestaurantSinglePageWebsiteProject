@@ -12,7 +12,6 @@ export const Menu = () => {
         <img src={images.menu} alt="" />
         <MenuItem />
       </div>
-
       <button type="button" className="contents__button">
         View More
       </button>

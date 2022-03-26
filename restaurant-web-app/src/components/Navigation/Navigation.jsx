@@ -1,15 +1,14 @@
 import React from "react";
 import "./Navigation.css";
-import { images } from "../../constants";
 import { FaBars } from "react-icons/fa";
-import image from "../../constants/image";
+import { images } from "../../constants";
 
 const Navigation = () => {
   const [navswitch, setNavwitch] = React.useState(false);
   return (
     <nav className="nav">
       <div className="nav__image">
-        <img src={image.gericht} alt="hay" />
+        <img src={images.gericht} alt="hay" />
       </div>
       <ul className="nav__center-menu">
         <li>

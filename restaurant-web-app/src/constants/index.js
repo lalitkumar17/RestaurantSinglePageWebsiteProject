@@ -1,4 +1,4 @@
-import obj from "./image";
 import images from "./image";
+import menuData from "./menuData";
 
-export { images };
+export { images, menuData };
