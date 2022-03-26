@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .app-header {
   position: relative;
   background-color: var(--color-black);
@@ -27,6 +21,7 @@
 .app-header__text-content > h1 {
   font-size: 4rem;
   margin-top: -0.5em;
+  color: var(--color-gold);
 }
 
 .app-header__text-content > p {

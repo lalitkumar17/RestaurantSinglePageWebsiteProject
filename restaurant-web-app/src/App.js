@@ -10,11 +10,11 @@ import { MenuItem } from "./components/MenuItem/MenuItem";
 function App() {
   return (
     <div className="App">
-      {/* <Navigation />
+      <Navigation />
       <Header />
-      <About /> */}
-      {/* <Menu /> */}
-      <MenuItem />
+      <About />
+      <Menu />
+      {/* <MenuItem /> */}
     </div>
   );
 }

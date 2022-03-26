@@ -4,12 +4,15 @@ import spoon from "../assets/spoon.svg";
 import knife from "../assets/knife.png";
 import bg from "../assets/bg.png";
 import G from "../assets/G.png";
+import menu from "../assets/menu.png";
 
-export default {
+const obj = {
   gericht,
   welcome,
   spoon,
   knife,
   bg,
   G,
+  menu,
 };
+export default obj;
