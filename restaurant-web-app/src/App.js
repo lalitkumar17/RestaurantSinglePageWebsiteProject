@@ -4,9 +4,6 @@ import { About } from "./container/About/About";
 import { Header } from "./container/Header/Header";
 import { Menu } from "./container/Menu/Menu";
 
-// temporary
-import { MenuItem } from "./components/MenuItem/MenuItem";
-
 function App() {
   return (
     <div className="App">
@@ -14,7 +11,6 @@ function App() {
       <Header />
       <About />
       <Menu />
-      {/* <MenuItem /> */}
     </div>
   );
 }

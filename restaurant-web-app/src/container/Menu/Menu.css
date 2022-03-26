@@ -9,9 +9,15 @@
 .menu-container__menu-item-content {
   display: flex;
   align-items: center;
+  gap: 4rem;
 }
 
 .menu-container__menu-item-content img {
   height: 670px;
   object-fit: contain;
+}
+
+.menu-item__content {
+  display: flex;
+  flex-direction: column;
 }

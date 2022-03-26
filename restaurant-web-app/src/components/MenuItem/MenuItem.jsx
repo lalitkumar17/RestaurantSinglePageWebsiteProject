@@ -5,11 +5,14 @@ import "./MenuItem.css";
 const MenuItem = (props) => {
   return (
     <div className="menu-item-container">
-      <div className="menu-item-container__item">
-        <p className="menu-item-container__item__name">haysdafds</p>
-        <div className="menu-item-container__item__horizontal-line"></div>
-        <p className="menu-item-container__item__price">$kdkd</p>
+      <div className="menu-item-container__content">
+        <div className="content__container">
+          <p className="content__container__name">{props.menu_obj.title}</p>
+          <div className="content__container__horizontal-line"></div>
+          <p className="content__container__price">{props.menu_obj.price}</p>
+        </div>
       </div>
+
       <div className="menu-item-container__tag">
         <p></p>
       </div>
