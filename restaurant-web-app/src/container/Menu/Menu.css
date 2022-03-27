@@ -6,6 +6,10 @@
   background-color: var(--color-black);
 }
 
+.menu-container__subheading {
+  text-align: center;
+}
+
 .menu-container__menu-item-content {
   display: flex;
   align-items: center;
@@ -13,11 +17,12 @@
 }
 
 .menu-container__menu-item-content img {
-  height: 670px;
+  max-width: 200px;
   object-fit: contain;
 }
 
-.menu-item__content {
+.menu-item-content__menu {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }

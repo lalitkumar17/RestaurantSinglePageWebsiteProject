@@ -13,6 +13,20 @@
   --sub-header-font-size: 3rem;
 }
 
+/* global style class */
+.sub-header-style {
+  font-size: var(--sub-header-font-size);
+  font-weight: normal;
+  color: var(--color-gold);
+}
+
+.container-padding-style {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 17rem;
+  padding-right: 12rem;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

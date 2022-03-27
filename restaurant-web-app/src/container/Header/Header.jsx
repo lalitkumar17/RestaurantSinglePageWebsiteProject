@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { images } from "../../constants";
-import { SubHeading } from "../../components/SubHeading/SubHeading";
+import SubHeading from "../../components/SubHeading/SubHeading";
 
 export const Header = () => {
   return (
@@ -21,7 +21,9 @@ export const Header = () => {
           </p>
           <button type="button">Explore Menu</button>
         </div>
-        <img src={images.welcome} alt="" />
+        <div className="image-wrapper">
+          <img src={images.welcome} alt="" />
+        </div>
       </div>
     </div>
   );

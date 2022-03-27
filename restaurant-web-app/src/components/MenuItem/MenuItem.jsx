@@ -12,9 +12,8 @@ const MenuItem = (props) => {
           <p className="content__container__price">{props.menu_obj.price}</p>
         </div>
       </div>
-
       <div className="menu-item-container__tag">
-        <p></p>
+        <p>{props.menu_obj.tags}</p>
       </div>
     </div>
   );

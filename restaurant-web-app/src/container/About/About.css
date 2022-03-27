@@ -33,12 +33,6 @@
   z-index: -1;
 }
 
-.about-container__aboutus-history-style > h1 {
-  font-size: var(--sub-header-font-size);
-  font-weight: normal;
-  color: var(--color-gold);
-}
-
 .about-container__flexstyle {
   display: flex;
   flex-direction: column;

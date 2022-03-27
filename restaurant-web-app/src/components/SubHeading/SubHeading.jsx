@@ -2,7 +2,7 @@ import React from "react";
 import { images } from "../../constants";
 import "./SubHeading.css";
 
-export const SubHeading = (props) => {
+const SubHeading = (props) => {
   return (
     <div className="app__sub-heading">
       <p>{props.title}</p>
@@ -10,3 +10,5 @@ export const SubHeading = (props) => {
     </div>
   );
 };
+
+export default SubHeading;

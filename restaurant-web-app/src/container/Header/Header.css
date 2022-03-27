@@ -2,20 +2,16 @@
   position: relative;
   background-color: var(--color-black);
   display: flex;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
   padding-left: 17rem;
   padding-right: 12rem;
 }
 
-.app-header__container > img {
-  object-fit: contain;
-  width: 500px;
+.image-wrapper > img {
+  max-width: 100%;
 }
 
 .app-header__container {
   display: flex;
-  gap: 4rem;
 }
 
 .app-header__text-content > h1 {
@@ -33,6 +29,9 @@
   flex-direction: column;
   gap: 2rem;
   justify-content: center;
+  padding: 8rem 0;
+  width: 60%;
+  margin-right: 7rem;
 }
 
 .app-header__text-content > button {
