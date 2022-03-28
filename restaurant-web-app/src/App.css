@@ -1,3 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+:root {
+  --color-black: #0c0b08;
+  --color-gold: #dcca87;
+
+  /* global font size */
+  --sub-header-font-size: 3rem;
+}
+
+/* global style class */
+.sub-header-style {
+  font-size: var(--sub-header-font-size);
+  font-weight: normal;
+  color: var(--color-gold);
+}
+
+.container-padding-style {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 17rem;
+  padding-right: 12rem;
+}
+
 .image-wrapper {
   display: flex;
   align-items: center;
