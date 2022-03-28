@@ -12,7 +12,7 @@ export const About = () => {
         <img src={images.G} alt="" />
       </div>
 
-      <div className="about-container__content">
+      <div className="about-container__content container-padding-style">
         <div className="about-container__aboutus about-container__flexstyle">
           <div className="about-container__aboutus-history-style aboutus__headerstyle">
             <h1 className="sub-header-style">About Us</h1>

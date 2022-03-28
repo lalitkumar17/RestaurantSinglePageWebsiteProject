@@ -6,8 +6,8 @@
   padding-right: 12rem;
 }
 
-.image-wrapper > img {
-  max-width: 100%;
+.image-wrapper__welcome-dish {
+  width: 100%;
 }
 
 .app-header__container {
@@ -16,7 +16,9 @@
 
 .app-header__text-content > h1 {
   font-size: 4rem;
-  margin-top: -0.5em;
+
+  /* adjusting space for subheading */
+  margin-top: -0.6em;
   color: var(--color-gold);
 }
 
@@ -29,7 +31,10 @@
   flex-direction: column;
   gap: 2rem;
   justify-content: center;
-  padding: 8rem 0;
+
+  /* this padding is speacially for header container */
+  padding: 10rem 0;
+
   width: 60%;
   margin-right: 7rem;
 }

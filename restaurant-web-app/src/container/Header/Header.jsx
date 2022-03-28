@@ -22,7 +22,11 @@ export const Header = () => {
           <button type="button">Explore Menu</button>
         </div>
         <div className="image-wrapper">
-          <img src={images.welcome} alt="" />
+          <img
+            src={images.welcome}
+            alt=""
+            className="image-wrapper__welcome-dish"
+          />
         </div>
       </div>
     </div>

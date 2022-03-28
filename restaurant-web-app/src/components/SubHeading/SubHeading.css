@@ -1,5 +1,6 @@
 .app__sub-heading {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .app__sub-heading > p {
@@ -8,5 +9,4 @@
 
 .app__sub-heading > img {
   object-fit: contain;
-  width: 50px;
 }

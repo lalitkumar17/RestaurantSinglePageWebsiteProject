@@ -8,9 +8,13 @@
 :root {
   --color-black: #0c0b08;
   --color-gold: #dcca87;
+  --color-gray: rgb(153, 146, 146);
 
   /* global font size */
-  --sub-header-font-size: 3rem;
+  --sub-header-font-size: 4rem;
+
+  /* global padding */
+  --sub-header-margin: 3rem;
 }
 
 /* global style class */
@@ -21,8 +25,8 @@
 }
 
 .container-padding-style {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   padding-left: 17rem;
   padding-right: 12rem;
 }

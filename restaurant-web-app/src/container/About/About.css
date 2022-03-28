@@ -5,17 +5,12 @@
 
 .about-container__content {
   display: flex;
-  gap: 5rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-left: 17rem;
-  padding-right: 12rem;
   align-items: center;
 }
 
-.about-container .about-container__img {
+.about-container__img {
   object-fit: contain;
-  width: 80px;
+  max-width: 40%;
 }
 
 .about-container__background img {

@@ -6,6 +6,7 @@
 
 .content__container__name {
   margin-right: auto;
+  color: var(--color-gold);
 }
 
 .content__container__price {
@@ -16,9 +17,10 @@
   background-color: white;
   min-width: 6rem;
   height: 0.5px;
-  margin-left: 3rem;
+  margin-left: 2.5rem;
 }
 
-.menu-item-container__item-quantity p {
-  color: white;
+.menu-item-container__tag > p {
+  color: var(--color-gray);
+  margin-top: 0.4rem;
 }

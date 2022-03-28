@@ -21,11 +21,20 @@ export const Menu = () => {
       </div>
       <h1 className="sub-header-style">Today's Special</h1>
       <div className="menu-container__menu-item-content">
-        <div className="menu-item-content__menu">{menuItemWine}</div>
-        <img src={images.menu} alt="" />
-        <div className="menu-item-content__menu">{menuItemCocktail}</div>
+        <div className="menu-item-content__menu">
+          {/* this is &#38; special symbol code and it end with semicolumn */}
+          <h1 style={{ textAlign: "center" }}>Wine &#38; Beer</h1>
+          {menuItemWine}
+        </div>
+        <div className="image-wrapper">
+          <img src={images.menu} alt="" className="image-wrapper__wine-glass" />
+        </div>
+        <div className="menu-item-content__menu">
+          <h1 style={{ textAlign: "center" }}>Cocktails</h1>
+          {menuItemCocktail}
+        </div>
       </div>
-      <button type="button" className="contents__button">
+      <button type="button" className="menu-contents__button">
         View More
       </button>
     </div>

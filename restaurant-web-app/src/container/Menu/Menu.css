@@ -13,16 +13,21 @@
 .menu-container__menu-item-content {
   display: flex;
   align-items: center;
-  gap: 4rem;
+  gap: 1.5rem;
+  margin-top: var(--sub-header-margin);
 }
 
-.menu-container__menu-item-content img {
-  max-width: 200px;
-  object-fit: contain;
+.image-wrapper__wine-glass {
+  max-width: 100%;
 }
 
 .menu-item-content__menu {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  width: 100%;
+}
+
+.menu-contents__button {
+  margin-top: 3rem;
 }
