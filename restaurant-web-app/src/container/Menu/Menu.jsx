@@ -2,15 +2,15 @@ import React from "react";
 import "./Menu.css";
 import { images } from "../../constants";
 import MenuItem from "../../components/MenuItem/MenuItem";
-import { menuData } from "../../constants";
+import { menu_data } from "../../constants";
 import SubHeading from "../../components/SubHeading/SubHeading";
 
 export const Menu = () => {
-  const menuItemWine = menuData.wines.map((arr) => {
+  const menuItemWine = menu_data.wines.map((arr) => {
     return <MenuItem menu_obj={arr} />;
   });
 
-  const menuItemCocktail = menuData.cocktails.map((arr) => {
+  const menuItemCocktail = menu_data.cocktails.map((arr) => {
     return <MenuItem menu_obj={arr} />;
   });
 

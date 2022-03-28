@@ -9,9 +9,6 @@
 .image-wrapper > img {
   max-width: 100%;
 }
-.image-wrapper{
-  border: 1px red solid;
-}
 
 .app-header__container {
   display: flex;

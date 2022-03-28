@@ -1,4 +1,4 @@
 import images from "./image";
-import menuData from "./menuData";
+import menu_data from "./menu_data";
 
-export { images, menuData };
+export { images, menu_data };

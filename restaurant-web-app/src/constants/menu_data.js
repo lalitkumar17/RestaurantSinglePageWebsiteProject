@@ -55,7 +55,8 @@ const cocktails = [
 ];
 
 // I don't know how is this working
-const menuDataObj={
-  wines, cocktails 
-}
+const menuDataObj = {
+  wines,
+  cocktails,
+};
 export default menuDataObj;
