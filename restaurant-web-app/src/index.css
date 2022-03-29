@@ -1,3 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+:root {
+  --color-black: #0c0b08;
+  --color-gold: #dcca87;
+  --color-gray: rgb(153, 146, 146);
+
+  /* global font size */
+  --sub-header-font-size: 4rem;
+
+  /* global padding */
+  --sub-header-margin: 3rem;
+}
 
 body {
   margin: 0;

@@ -1,45 +1,60 @@
+/* main div */
 .our-believes-container {
   position: relative;
   display: flex;
 }
 
-.our-believes-container__our-believes-content {
-  display: flex;
-  align-items: center;
-  gap: 4rem;
-}
-
+/* background image of main div */
 .our-believes-container__background img {
   width: 100%;
   height: 100%;
   position: absolute;
   z-index: -1;
 }
-.ob-text-content__profile {
-  border: 1px red solid;
+
+/* all content are inside this container */
+.our-believes-container__our-believes-content {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
 }
 
+/* founder name and occupation */
+
+/* profile name and occupation  */
+.ob-profile__name {
+  font-size: 2rem;
+  color: var(--color-gold);
+  margin-bottom: 0.4em;
+}
+
+/* div main image */
 .image-wrapper__chef-img {
   width: 100%;
-  border: 1px red solid;
-}
-
-.our-believes__text-content {
-  border: 1px red solid;
-  display: flex;
-  flex-direction: column;
-  gap: 5rem;
 }
 
 .ob-text-content__sign {
-  width: 200px;
+  width: 180px;
 }
 
+/* text content */
 .ob-container__ob-text-content {
-  border: 1px green solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 105%;
-  gap: 2rem;
+  gap: 3rem;
+}
+
+/* main paragraph quatoes  */
+.ob-text-content__para > img {
+  width: 40px;
+  display: inline;
+  margin-bottom: -0.3rem;
+  margin-right: 0.3rem;
+}
+
+.ob-text-content__para {
+  line-height: 1.5em;
+  font-style: italic;
 }

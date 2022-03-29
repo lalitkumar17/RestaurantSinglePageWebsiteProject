@@ -3,7 +3,7 @@ import "./OurBelieves.css";
 import { images } from "../../constants";
 import SubHeading from "../../components/SubHeading/SubHeading";
 
-const OurBelieves = () => {
+export const OurBelieves = () => {
   return (
     <div className="our-believes-container">
       <div className="our-believes-container__background">
@@ -26,8 +26,8 @@ const OurBelieves = () => {
             explicabo. Consectetur, aspernatur obcaecati.
           </p>
           <div className="ob-text-content__profile">
-            <p>Lalit Kumar</p>
-            <p>Chef Founder</p>
+            <p className="ob-profile__name">Lalit Kumar</p>
+            <p className="ob-profile__occupation">Chef Founder</p>
           </div>
           <img src={images.sign} alt="" className="ob-text-content__sign" />
         </div>
@@ -35,5 +35,3 @@ const OurBelieves = () => {
     </div>
   );
 };
-
-export default OurBelieves;
