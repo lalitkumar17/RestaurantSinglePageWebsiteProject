@@ -27,7 +27,7 @@
 .container-padding-style {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  padding-left: 17rem;
+  padding-left: 12rem;
   padding-right: 12rem;
 }
 
@@ -36,5 +36,5 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin: 10% 0;
+  border: 1px royalblue solid;
 }

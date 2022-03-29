@@ -1,12 +1,12 @@
 .our-believes-container {
   position: relative;
   display: flex;
-  border: 1px red solid;
 }
 
-.our-believes-container__content {
+.our-believes-container__our-believes-content {
   display: flex;
   align-items: center;
+  gap: 4rem;
 }
 
 .our-believes-container__background img {
@@ -15,7 +15,31 @@
   position: absolute;
   z-index: -1;
 }
+.ob-text-content__profile {
+  border: 1px red solid;
+}
 
 .image-wrapper__chef-img {
   width: 100%;
+  border: 1px red solid;
+}
+
+.our-believes__text-content {
+  border: 1px red solid;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.ob-text-content__sign {
+  width: 200px;
+}
+
+.ob-container__ob-text-content {
+  border: 1px green solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 105%;
+  gap: 2rem;
 }
