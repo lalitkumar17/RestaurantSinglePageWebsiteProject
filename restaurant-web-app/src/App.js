@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation/Navigation";
 import { About } from "./container/About/About";
 import { Header } from "./container/Header/Header";
 import { Menu } from "./container/Menu/Menu";
+import OurBelieves from "./container/OurBelieves/OurBelieves";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <About />
       <Menu />
+      <OurBelieves />
     </div>
   );
 }

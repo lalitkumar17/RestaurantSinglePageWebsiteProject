@@ -1,0 +1,21 @@
+.our-believes-container {
+  position: relative;
+  display: flex;
+  border: 1px red solid;
+}
+
+.our-believes-container__content {
+  display: flex;
+  align-items: center;
+}
+
+.our-believes-container__background img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.image-wrapper__chef-img {
+  width: 100%;
+}
