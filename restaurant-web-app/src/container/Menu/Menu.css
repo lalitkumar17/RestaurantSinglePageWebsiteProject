@@ -14,7 +14,7 @@
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  margin-top: var(--sub-header-margin);
+  margin-top: -1rem;
 }
 
 .image-wrapper__wine-glass {
@@ -29,5 +29,5 @@
 }
 
 .menu-contents__button {
-  margin-top: 3rem;
+  margin-top: -5rem;
 }
